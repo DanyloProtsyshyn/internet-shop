@@ -1,0 +1,65 @@
+.track-app-container {
+  min-width: 280px;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(33,155,7,0.08);
+  padding: 24px 18px 18px 18px;
+  color: #222;
+  text-align: center;
+}
+.track-app-container h2 {
+  color: #219b07;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+.track-code {
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  color: #444;
+}
+.track-status-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px 0;
+}
+.track-status-list li {
+  padding: 10px 0;
+  font-size: 1.08rem;
+  color: #bbb;
+  border-left: 4px solid #e5fbe0;
+  margin-bottom: 6px;
+  text-align: left;
+  padding-left: 18px;
+  transition: color 0.3s, border-color 0.3s;
+}
+.active-status {
+  color: #219b07;
+  border-left: 4px solid #ffd600;
+  font-weight: bold;
+}
+.delivered {
+  color: #219b07;
+  font-weight: bold;
+  font-size: 1.08rem;
+  margin-top: 12px;
+}
+.track-cabinet-btn {
+  background: #ffd600;
+  color: #222;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.track-cabinet-btn:hover {
+  background: #ffe066;
+  color: #219b07;
+} 
